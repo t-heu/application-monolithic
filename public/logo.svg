@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="116px" viewBox="0 0 180 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M258,176.2822 L258,215.564399 C258,236.212735 275.78192,253 297.589935,253 L376.60205,253 L376.60205,181.654124 L332.650513,181.654124 L332.650513,217.243126 L311.681267,217.243126 C306.145387,217.243126 301.783784,213.04631 301.783784,207.842258 L301.783784,173.092619 C301.783784,167.888567 304.467847,163.691751 310.003728,163.691751 L345.23206,163.691751 L365.027027,137 L297.589935,137 C275.78192,137.167873 258,155.633864 258,176.2822 L258,176.2822 Z M394.048462,173.092619 L394.048462,253 L438,253 L438,146.400868 C438,141.196816 433.638397,137 428.102516,137 L384.821994,137 L365.027027,163.691751 L384.150979,163.691751 C389.686859,163.691751 394.048462,167.888567 394.048462,173.092619 L394.048462,173.092619 Z" id="path-1"></path>
+    </defs>
+    <g id="THUMB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Imagem-Padrão---G1" transform="translate(-258.000000, -137.000000)">
+            <g id="Shape">
+                <use fill="#D8D8D8" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
+

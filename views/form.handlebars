@@ -1,0 +1,23 @@
+<body style="background: #c4170c">
+  <img class="logo" src="/logo.svg">
+  {{#each error}}
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    {{alert}}
+  </div>
+  {{/each}}
+  <section class="cont">
+    <h3>create</h3>
+    <form action="/app/register/auth" method="POST">
+      <input placeholder="topic" type="text" name="topic">
+      <input placeholder="title" type="text" name="title">
+      <textarea placeholder="text" type="text" name="text"></textarea>
+      <input placeholder="sub title" type="text" name="sub_title">
+      <input placeholder="link image" type="text" name="image_link">
+      <input placeholder="tags" type="text" name="tags">
+      <input placeholder="author" type="text" name="author">
+      <button type="submit">ok</button>
+    </form>
+  </section>
+</body>
+

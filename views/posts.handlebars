@@ -1,0 +1,39 @@
+<body>
+{{#with posts}}
+  <header class="navbar">
+    <a class="logo" href="/"><img src="/logo.svg"></a>
+    <div class="titlee">
+      <a class="title" href="#">{{topic}}</a>
+    </div>
+  </header>
+   
+  <section style="margin: 0 1em" class="wrraper">
+    <div class="titulos">
+      <h1>{{title}}</h1>
+      <h2>{{sub_title}}</h2>
+    </div>
+        
+    <div class="info">
+      <p>Por {{author}}</p>
+      <time>{{createdAt}} • Atualizado há 6 horas</time>
+      
+      <p><a href="#"><i class="fas fa-share-alt"></i></a></p>
+    </div>
+    
+    <div class="texto">
+      <figure>
+        <img src="{{image_link}}" alt="ImageNews">
+        <figcaption>rsrsrs</figcaption>
+      </figure>
+      
+      <p>{{text}}</p>
+    </div>
+    <a href="#" class="tag">{{tags}}</a>
+  </section>
+{{/with}} 
+  <footer class="footer">
+    <a href="#">Termos</a>
+    <span>©G1 Copyright</span>
+  </footer>
+</body>
+

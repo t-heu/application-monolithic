@@ -1,0 +1,25 @@
+<body style="background: #c4170c">
+  <img class="logo" src="/logo.svg">
+  {{#if error}}
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    {{error}}
+  </div>
+  {{/if}}
+
+  {{#each error1}}
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    {{alert}}
+  </div>
+  {{/each}}
+  <section class="cont">
+    <h3>login account</h3>
+    <form action="/login/auth" method="POST">
+      <input placeholder="user" type="text" name="name">
+      <input placeholder="password" type="password" name="password">
+      <button type="submit">login</button>
+    </form>
+  </section>
+</body>
+

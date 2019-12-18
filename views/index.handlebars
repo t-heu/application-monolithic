@@ -1,0 +1,39 @@
+<body style="background: #f5f5fa">
+  <header style="justify-content: space-between" class="navbar">
+    <div class="bar">
+      <a onclick="openNav()"><i id="fa-bars" class="posi fas fa-bars"></i></a>
+      <a onclick="closeNav()"><i id="fa-close" class="posi fas fa-times"></i></a>
+    </div>
+    
+    <a href="#" class="logo"><img src="/logo.svg"></a>
+    
+    <div class="bar">
+      <a><i class="fas fa-search"></i></a>
+    </div>
+  </header>
+  
+  <nav id="menu">
+    <ul>
+      <li class="activ"><a href="#">início</a></li>
+      <li><a href="post.html">news</a></li>
+      <li><a href="#">login</a></li>
+    </ul>
+  </nav>
+  
+  <div class="wrraper">
+    {{#each posts}}
+    <div class="post">
+      <h3>{{topic}}</h3>
+      <a class="g1t" href="/posts/{{id}}"><h2>{{title}}</h2></a>
+      <p>{{sub_title}}</p>
+    </div>
+    
+    {{/each}}
+  </div>
+  
+  <footer class="footer">
+    <a href="#">Termos</a>
+    <span>©G1 Copyright</span>
+  </footer>
+<script src="/app.js"></script>
+</body>

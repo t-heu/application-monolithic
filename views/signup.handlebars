@@ -1,0 +1,19 @@
+<body style="background: #c4170c">
+  <img class="logo" src="/logo.svg">
+  {{#each error}} 
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    {{alert}}
+  </div>
+  {{/each}}
+  <section class="cont">
+    <h3>create account</h3>
+    <form action="/signup/auth" method="POST">
+      <input placeholder="user" type="text" name="name">
+      <input placeholder="email" type="email" name="email">
+      <input placeholder="password" type="password" name="password">
+      <button type="submit">create</button>
+    </form>
+  </section>
+</body>
+
