@@ -2,15 +2,16 @@
 
 para fins didáticos
 
-_bibliotecas utilizadas:_
-- handlebars 
+_tecnologias utilizadas:_
+- Handlebars 
 - Node
-- sequelize(PostgreSQL)
-- express
-- passport
+- Sequelize
+- Express
+- Passport
 
-install with yarn
+Banco de dados: PostgreSQL
 
+### Install with yarn
 ```
 yarn add
 npx sequelize db:migrate
